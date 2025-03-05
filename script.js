@@ -16,3 +16,7 @@ async function getWeather() {
         document.getElementById('weather-info').innerHTML = '<p>City not found</p>';
     }
 }
+
+document.getElementById('toggle-theme').addEventListener('click', () => {
+    document.body.classList.toggle('dark-mode');
+});
